@@ -1,0 +1,7 @@
+Changes:
+	Compiler.php : protected function compileValue
+	Compiler.php : protected function compileStringContent
+	 -> public
+	 (required by cssUtils)
+	Server.php : line 239 : error_log exception message
+	Server.php : line 241 : exit on 500, prevent windows-server bugs
