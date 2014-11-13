@@ -1,0 +1,12 @@
+{
+    "name": "m/fwk-app-lib-vendor-base",
+    "authors": [
+        {
+            "name": "m",
+            "email": "micranet@micranet.es"
+        }
+    ],
+    "require": {
+
+    }
+}
