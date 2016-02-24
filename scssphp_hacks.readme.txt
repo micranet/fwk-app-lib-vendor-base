@@ -5,3 +5,19 @@ Changes:
 	 (required by cssUtils)
 	Server.php : line 239 : error_log exception message
 	Server.php : line 241 : exit on 500, prevent windows-server bugs
+
+
+
+Changes on 0.6.3
+
+	Compiler.php:2492 : protected function compileValue
+		-> already to public, no changes made
+
+	Compiler.php:2635 : protected function compileStringContent
+		-> set to public
+	(required by cssUtils)
+
+	Compiler.php:2220 Fix Null values not evaluated to true
+	Compiler.php:2236 Fix Null values not evaluated to true
+
+	Server.php:348 : added error to error_log
