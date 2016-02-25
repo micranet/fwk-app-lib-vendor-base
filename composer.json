@@ -6,6 +6,9 @@
             "email": "micranet@micranet.es"
         }
     ],
+    "autoload": {
+        "psr-4": { "Leafo\\ScssPhp\\": "scssphp/src" }
+    },
     "require": {
 
     }
