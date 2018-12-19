@@ -1,4 +1,15 @@
-Changes:
+Changes on 0.7.7:
+	Compiler.php : protected function compileStringContent
+	-> public
+	(required by cssUtils)
+	scssphp/scss.inc.php:32
+	-> Add
+		include_once __DIR__ . '/example/Server.php';
+
+
+
+
+Changes on 0.6.3 :
 	Compiler.php : protected function compileValue
 	Compiler.php : protected function compileStringContent
 	 -> public
@@ -8,7 +19,7 @@ Changes:
 
 
 
-Changes on 0.6.3
+Changes on 0.6.3 ( deprecated ? )
 
 	Compiler.php:2492 : protected function compileValue
 		-> already to public, no changes made
